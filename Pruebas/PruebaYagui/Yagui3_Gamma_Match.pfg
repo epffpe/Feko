@@ -1,0 +1,12 @@
+<rawDataGraph autoUAxis="1" vAxisFont="1" autoVAxis="1" footerFont="1" titleText="Optimisation Progress" legendFont="1" titleFont="1" windowState="maximized" uGridLabelFont="1" vGridLabelFont="1" windowSize="380,380" version="1" uAxisText="Iteration number" vAxisText="" footerText="2011-02-19 : Yagui3_Gamma_Match" vAxisUnits="" uAutoScale="1" uAxisFont="1" uAxisUnits="" uPrecision="" vPrecision="2">
+ <valueSeries autoLegend="0" label="s" legend="s" lineColour="0" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+ </valueSeries>
+ <valueSeries autoLegend="0" label="lt" legend="lt" lineColour="1" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+ </valueSeries>
+ <valueSeries autoLegend="0" label="search1.goals.impedancegoal1" legend="search1.goals.impedancegoal1" lineColour="2" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+ </valueSeries>
+ <valueSeries autoLegend="0" label="search1.goals.impedancegoal2" legend="search1.goals.impedancegoal2" lineColour="3" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+ </valueSeries>
+ <valueSeries autoLegend="0" label="global goal" legend="global goal" lineColour="4" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+ </valueSeries>
+</rawDataGraph>

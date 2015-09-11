@@ -1,0 +1,1505 @@
+FEKO.CSV  Version  55.353       from 2009-08-10 (FEKO Suite 5.5)
+          PREFEKO version 34.46-92 from 2009-08-10                    BINARY
+          CADFEKO version 5.0.124623 from Aug 11 2009                 
+          Copyright (c) 1999-2009 EM Software & Systems-S.A. (Pty) Ltd     
+          Intel(R) MKL version 10.2 (build 20090616) on Intel(R) Pentium(R) 4 processor with SSE3 (1 thread)
+Computer: PC WIN32 MKL IMPI -- Supersonic                   
+          Microsoft Windows XP Professional Service Pack 3 (Build 2600), Version 5.1.2600
+          Genuine Intel(R) CPU           T2400  @ 1.83GHz; GenuineIntel family 6 model 14 stepping 8 brand id 0
+          1 physical CPU with a total of 2 processors found (multi-core CPU with max. 2 cores per physical CPU)
+Date:     2009-12-17 19:40:11                     
+File:     monopolo433
+Memory:   Limited to  476.053 MByte, reason  160
+          (for parallel runs memory limit is per process)
+MD5 Check:69B5633D555A0DFCC771DD78AF820674
+MD5 Total:4363F1841B950820A641BA88D497E292
+Licence:  Nodelocked licence no.                                 
+
+Number of parallel processes:    2 on    1 CPUs
+
+Master process    0 on machine:   Supersonic                    
+Server process    1 on machine:   Supersonic                    
+
+
+          Scaling of the geometry with factor SKAL =  1.00000E-03
+
+          Length of the segments in m:         0.173090334
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:            0                   max. triangles:MAXNDR   =        0
+ Number of dielectric triangles:          0
+ Number of diel. GO triangles:            0
+ Number of diel. windscreen tr.:          0
+ Number of FEM surface triangles:         0
+ Number of modal port triangles:          0
+ Number of metallic segments:             5                   max. segments: MAXNSEG  =        5
+ Number dielectr./magnet. cuboids:        0                   max. cuboids:  MAXNQUA  =        0
+ Number of tetrahedral elements:          0                   max. tetrah.:  MAXNTETRA=        0
+ Number of edges in PO region:            0                   max. edges:    MAXPOKA  =        0
+ Number of wedges in PO region:           0                   max. wedges:   MAXPOKL  =        0
+ Number of Fock regions:                  0                   max. Fock reg.:MAXFOGE  =        0
+ Number of polygonal surfaces:            0                   max. surfaces: MAXPOLYF =        0
+                                                              max. corner p.:MAXPOLYP =        0
+ Number of UTD cylinders:                 0
+
+ Number of metallic edges (MoM):            0  unknown:        0   max. edges:   MAXNKA    =        0
+                                            0  unknown:        0   (magnet.) 
+ Number of metallic edges (PO):             0  unknown:        0   (electr.)         0 (magnet.)
+ Number of dielectric edges (MoM):          0  unknown:        0   (electr.) 
+                                            0                  0   (magnet.) 
+ Number of dielectric edges (PO):           0  unknown:        0   (electr.)         0 (magnet.)
+ Number of edges FEM/MoM surface:           0  unknown:        0   (electr.) 
+                                            0                  0   (magnet.) 
+ Number of nodes between segments:          4  unknown:        4   max. nodes:   MAXNKNO   =       18
+ Number of connection points:               0  unknown:        0   max. conn.:   MAXNV     =        0
+ Number of dielectric cuboids:              0  unknown:        0   max. cuboids: MAXNQUA   =        0
+ Number of magnetic cuboids:                0  unknown:        0
+
+ Number of basis funct. for MoM:            4  unknown:        4   max. basisf.  MAXNZEILE =       18
+ Number of basis funct. for PO:             0  unknown:        0   max. basisf.  MAXNKAPO  =        0
+
+ read from input file:                             
+LZ       2    0    0    0    0 5.000E+01 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:                             
+FR      11    0    0    0    0 4.000E+08 0.000E+00 5.000E+08 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   7.49481E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.00000E+08
+ Wavelength in m:             LAMBDA =  7.49481E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+   Distributed storage of MoM matrix for parallel version
+
+
+                    DISTRIBUTED STORAGE OF MATRIX
+
+   Number of rows of the matrix             =              4
+   Number of columns of the matrix          =              4
+   Number of rows of the process grid       =              2
+   Number of columns of the process grid    =              1
+   Block size                               =              1
+   Theoretical load in percent              =         100.00
+   Number of rows of local matrix (proc. 0) =              2
+   Number of columns of local mat.(proc. 0) =              4
+   Local memory requirement for matrix      =              8 complex numbers
+   (corresponds to   64 Byte)
+
+ Storage using single precision
+
+ Memory requirement for MoM matrix:         4 rows *        4 columns =          16 complex numbers
+ For the MoM matrix, a memory of            8 complex numbers is used (i.e.   64 Byte)
+
+     Per process   32.629 kByte have been allocated dynamically,
+     which corresponds to   65.258 kByte in total for all processes together
+     (peak memory usage so far   32.629 kByte per process)
+
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  9.47036E+00
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.015 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    5.9211E-06  2.3587E-04  2.3594E-04       88.56
+ Admitt.   in A/V  5.9211E-06  2.3587E-04  2.3594E-04       88.56
+ Impedance in Ohm  1.0637E+02 -4.2370E+03  4.2384E+03      -88.56
+ Capacitance in F  9.3907E-14
+
+                                   Power in Watt: 2.96057E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.99130E-01 -2.35693E-02   9.99408E-01   -0.0051     -1.35
+         Sum |S|^2 of these S-parameters:    9.98817E-01   -0.0051
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  1.8556E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  1.8556E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         1.8556E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 1.8556E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          1.8556E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    1.8556E-06 W
+
+          Efficiency of the antenna:                     37.3233 %
+          (based on a total active power:             2.9606E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   7.31201E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.10000E+08
+ Wavelength in m:             LAMBDA =  7.31201E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  9.63189E+00
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    6.4510E-06  2.4302E-04  2.4310E-04       88.48
+ Admitt.   in A/V  6.4510E-06  2.4302E-04  2.4310E-04       88.48
+ Impedance in Ohm  1.0916E+02 -4.1120E+03  4.1135E+03      -88.48
+ Capacitance in F  9.4402E-14
+
+                                   Power in Watt: 3.22550E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.99060E-01 -2.42825E-02   9.99355E-01   -0.0056     -1.39
+         Sum |S|^2 of these S-parameters:    9.98711E-01   -0.0056
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  1.9700E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  1.9700E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         1.9700E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 1.9700E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          1.9700E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    1.9700E-06 W
+
+          Efficiency of the antenna:                     38.9251 %
+          (based on a total active power:             3.2255E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   7.13792E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.20000E+08
+ Wavelength in m:             LAMBDA =  7.13792E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  9.80272E+00
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    7.0296E-06  2.5030E-04  2.5039E-04       88.39
+ Admitt.   in A/V  7.0296E-06  2.5030E-04  2.5039E-04       88.39
+ Impedance in Ohm  1.1212E+02 -3.9921E+03  3.9937E+03      -88.39
+ Capacitance in F  9.4922E-14
+
+                                   Power in Watt: 3.51482E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98984E-01 -2.50081E-02   9.99297E-01   -0.0061     -1.43
+         Sum |S|^2 of these S-parameters:    9.98595E-01   -0.0061
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.0899E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.0899E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.0899E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.0899E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.0899E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.0899E-06 W
+
+          Efficiency of the antenna:                     40.5398 %
+          (based on a total active power:             3.5148E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.97192E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.30000E+08
+ Wavelength in m:             LAMBDA =  6.97192E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  9.98349E+00
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    7.6625E-06  2.5771E-04  2.5782E-04       88.30
+ Admitt.   in A/V  7.6625E-06  2.5771E-04  2.5782E-04       88.30
+ Impedance in Ohm  1.1527E+02 -3.8769E+03  3.8786E+03      -88.30
+ Capacitance in F  9.5470E-14
+
+                                   Power in Watt: 3.83125E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98902E-01 -2.57469E-02   9.99234E-01   -0.0067     -1.48
+         Sum |S|^2 of these S-parameters:    9.98469E-01   -0.0067
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.2158E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.2158E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.2158E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.2158E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.2158E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.2158E-06 W
+
+          Efficiency of the antenna:                     42.1661 %
+          (based on a total active power:             3.8312E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.81346E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.40000E+08
+ Wavelength in m:             LAMBDA =  6.81346E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.01749E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    8.3557E-06  2.6527E-04  2.6540E-04       88.20
+ Admitt.   in A/V  8.3557E-06  2.6527E-04  2.6540E-04       88.20
+ Impedance in Ohm  1.1863E+02 -3.7661E+03  3.7679E+03      -88.20
+ Capacitance in F  9.6046E-14
+
+                                   Power in Watt: 4.17783E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98813E-01 -2.64998E-02   9.99165E-01   -0.0073     -1.52
+         Sum |S|^2 of these S-parameters:    9.98331E-01   -0.0073
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.3479E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.3479E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.3479E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.3479E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.3479E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.3479E-06 W
+
+          Efficiency of the antenna:                     43.8018 %
+          (based on a total active power:             4.1778E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.66205E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.50000E+08
+ Wavelength in m:             LAMBDA =  6.66205E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.03778E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    9.1162E-06  2.7298E-04  2.7313E-04       88.09
+ Admitt.   in A/V  9.1162E-06  2.7298E-04  2.7313E-04       88.09
+ Impedance in Ohm  1.2220E+02 -3.6592E+03  3.6613E+03      -88.09
+ Capacitance in F  9.6654E-14
+
+                                   Power in Watt: 4.55812E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98717E-01 -2.72678E-02   9.99089E-01   -0.0079     -1.56
+         Sum |S|^2 of these S-parameters:    9.98179E-01   -0.0079
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.4867E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.4867E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.4867E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.4867E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.4867E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.4867E-06 W
+
+          Efficiency of the antenna:                     45.4457 %
+          (based on a total active power:             4.5581E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.51723E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.60000E+08
+ Wavelength in m:             LAMBDA =  6.51723E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.05930E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    9.9522E-06  2.8085E-04  2.8103E-04       87.97
+ Admitt.   in A/V  9.9522E-06  2.8085E-04  2.8103E-04       87.97
+ Impedance in Ohm  1.2601E+02 -3.5561E+03  3.5584E+03      -87.97
+ Capacitance in F  9.7294E-14
+
+                                   Power in Watt: 4.97612E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98612E-01 -2.80518E-02   9.99005E-01   -0.0086     -1.61
+         Sum |S|^2 of these S-parameters:    9.98012E-01   -0.0086
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.6326E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.6326E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.6326E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.6326E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.6326E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.6326E-06 W
+
+          Efficiency of the antenna:                     47.0959 %
+          (based on a total active power:             4.9761E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.37856E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.70000E+08
+ Wavelength in m:             LAMBDA =  6.37856E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.015 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.08215E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    1.0873E-05  2.8890E-04  2.8911E-04       87.84
+ Admitt.   in A/V  1.0873E-05  2.8890E-04  2.8911E-04       87.84
+ Impedance in Ohm  1.3008E+02 -3.4565E+03  3.4589E+03      -87.84
+ Capacitance in F  9.7970E-14
+
+                                   Power in Watt: 5.43645E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98497E-01 -2.88531E-02   9.98914E-01   -0.0094     -1.66
+         Sum |S|^2 of these S-parameters:    9.97828E-01   -0.0094
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.7861E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.7861E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.7861E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.7861E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.7861E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.7861E-06 W
+
+          Efficiency of the antenna:                     48.7507 %
+          (based on a total active power:             5.4364E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.24568E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.80000E+08
+ Wavelength in m:             LAMBDA =  6.24568E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.10643E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    1.1889E-05  2.9715E-04  2.9738E-04       87.71
+ Admitt.   in A/V  1.1889E-05  2.9715E-04  2.9738E-04       87.71
+ Impedance in Ohm  1.3443E+02 -3.3600E+03  3.3626E+03      -87.71
+ Capacitance in F  9.8684E-14
+
+                                   Power in Watt: 5.94438E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98371E-01 -2.96728E-02   9.98812E-01   -0.0103     -1.70
+         Sum |S|^2 of these S-parameters:    9.97626E-01   -0.0103
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  2.9479E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  2.9479E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         2.9479E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 2.9479E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          2.9479E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    2.9479E-06 W
+
+          Efficiency of the antenna:                     50.4083 %
+          (based on a total active power:             5.9444E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.11821E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.90000E+08
+ Wavelength in m:             LAMBDA =  6.11821E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.13227E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    1.3012E-05  3.0559E-04  3.0587E-04       87.56
+ Admitt.   in A/V  1.3012E-05  3.0559E-04  3.0587E-04       87.56
+ Impedance in Ohm  1.3908E+02 -3.2664E+03  3.2694E+03      -87.56
+ Capacitance in F  9.9438E-14
+
+                                   Power in Watt: 6.50604E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98234E-01 -3.05124E-02   9.98700E-01   -0.0113     -1.75
+         Sum |S|^2 of these S-parameters:    9.97402E-01   -0.0113
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  3.1185E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  3.1185E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         3.1185E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 3.1185E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          3.1185E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    3.1185E-06 W
+
+          Efficiency of the antenna:                     52.0671 %
+          (based on a total active power:             6.5060E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from buffer:                                 
+SP       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ NOTE    34620: Redundant one-port S-parameter request. S11 is available from source data. Check documentation for backwards compatibility w.r.t. loading
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   5.99585E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  5.00000E+08
+ Wavelength in m:             LAMBDA =  5.99585E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Union4.Wire63.Port1
+ Absolute number of segment:  UNR =      1
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  8.32757E-03
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+
+                           DATA OF LABELS
+
+Label Union4.Wire63.Port1: Skin =  0             Load =  1             Coating =  0
+          Rss=   0.000E+00 Ohm/m  Lss=   0.000E+00 H/m    Css=   0.000E+00 F
+          Rs =   0.000E+00 Ohm    Ls =   0.000E+00 H      Cs =   0.000E+00 F
+          Rp =   0.000E+00 Ohm    Lp =   0.000E+00 H      Cp =   0.000E+00 F
+          Zs =   (  5.000E+01 +j  0.000E+00) Ohm          (indep. of freq.)
+          Zload'=(  0.000E+00 +j  0.000E+00) Ohm/m        (freq. dep.)
+          Zload =(  5.000E+01 +j  0.000E+00) Ohm          (freq. dep.)
+
+All segments and triangles without a listed label are perfectly conducting
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.000 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH SCALAGAU
+
+               Condition number of the matrix:  1.15979E+01
+
+               Floating point performance for LU decomposition:
+                    Not determined since computation time too short
+
+     CPU time for solving the linear set of equations:       0.000 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    1.4257E-05  3.1426E-04  3.1458E-04       87.40
+ Admitt.   in A/V  1.4257E-05  3.1426E-04  3.1458E-04       87.40
+ Impedance in Ohm  1.4407E+02 -3.1756E+03  3.1788E+03      -87.40
+ Capacitance in F  1.0024E-13
+
+                                   Power in Watt: 7.12851E-06
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   9.98083E-01 -3.13732E-02   9.98576E-01   -0.0124     -1.80
+         Sum |S|^2 of these S-parameters:    9.97153E-01   -0.0124
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                      POWER LOSS METAL (in Watt)
+
+                    |                 in the segments                  | in the
+       Label        | skineffect  conc.load   distr.load   coating     | triangles
+ Union4.Wire63.Port1| 0.0000E+00  3.2987E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+total               | 0.0000E+00  3.2987E-06  0.0000E+00   0.0000E+00  | 0.0000E+00
+
+          Total loss in the segments:         3.2987E-06 W
+          Total loss in the triangles:        0.0000E+00 W
+
+          Loss metal (total):                 3.2987E-06 W
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          3.2987E-06 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    3.2987E-06 W
+
+          Efficiency of the antenna:                     53.7254 %
+          (based on a total active power:             7.1285E-06 W)
+
+ read from buffer:                                 
+A1       0    2    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+EN       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
+
+                    SUMMARY OF REQUIRED TIMES IN SECONDS
+
+                                            CPU-time      runtime
+ Reading and constructing the geometry         0.000        0.000
+ Checking the geometry                         0.000        0.000
+ Initialisation of the Greens function         0.016        0.016
+ Calcul. of coupling for PO/Fock               0.000        0.000
+ Calcul. of matrix elements                    0.000        0.000
+ Calcul. of right-hand side vector             0.000        0.000
+ Preconditioning system of linear eqns.        0.015        0.015
+ Solution of the system of linear eqns.        0.015        0.015
+ Determination of surface currents             0.000        0.000
+ Calcul. of impedances/powers/losses           0.110        0.110
+ Calcul. of averaged SAR values                0.000        0.000
+ Calcul. of power ideal receiving ant.         0.000        0.000
+ Calcul. of cable coupling                     0.000        0.000
+ Calcul. of electric near field                0.000        0.000
+ Calcul. of magnetic near field                0.000        0.000
+ Calcul. of far field                          0.000        0.000
+                            other              0.141        0.140
+                                         -----------  -----------
+                         total times:          0.297        0.296
+               (total times in hours:          0.000        0.000)
+
+ Specified CPU-times are referring to the master process only
+ Sum of the CPU-times of all processes:        0.594 seconds (    0.000 hours)
+ On average per process:                       0.297 seconds (    0.000 hours)
+
+ Peak memory usage during the whole solution:   32.848 kByte
+ (refers to the master process only)
+ Sum of the peak memory of all processes:       62.467 kByte
+ On average per process:                        31.233 kByte
+
+Finished: 2009-12-17 19:40:11                     

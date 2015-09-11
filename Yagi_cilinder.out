@@ -1,0 +1,129 @@
+FEKO      Version  55.353       from 2009-08-10 (FEKO Suite 5.5)
+          PREFEKO version 34.46-92 from 2009-08-10                    BINARY
+          CADFEKO version 5.0.124623 from Aug 11 2009                 
+          Copyright (c) 1999-2009 EM Software & Systems-S.A. (Pty) Ltd     
+          Intel(R) MKL version 10.2 (build 20090616) on Intel(R) Pentium(R) 4 processor with SSE3 (1 thread)
+Computer: PC WIN32 MKL -- Supersonic                        
+          Microsoft Windows XP Professional Service Pack 3 (Build 2600), Version 5.1.2600
+          Genuine Intel(R) CPU           T2400  @ 1.83GHz; GenuineIntel family 6 model 14 stepping 8 brand id 0
+          1 physical CPU with a total of 2 processors found (multi-core CPU with max. 2 cores per physical CPU)
+Date:     2009-11-08 16:50:45                     
+File:     Yagi_cilinder
+Memory:   Limited to  952.105 MByte, reason  160
+MD5 Check:5B9A0DA50749C1E35A5D4641B2DDE4E3
+MD5 Total:A8AC6E618E199E6B509BABFA4904B961
+Licence:  Nodelocked licence no.                                 
+
+ Number of cores found on this CPU:  2
+ (that many parallel processes may be run with your sequential FEKO licence)
+ NOTE    35127: You are running a sequential version of FEKO, but it was detected that your CPU has more than one core. For best performance, it would be recommended to run the parallel FEKO kernel (your licence allows this)
+
+
+                    YZ-plane is an electric conducting wall
+
+          Mirroring in yz-plane: 
+                              6378 metallic triangles
+
+
+                    XZ-plane is a magnetic conducting wall
+
+          Mirroring in xz-plane: 
+                             12756 metallic triangles
+
+          Surface of all triangles in m*m:     0.00149981164
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:        25512                   max. triangles:MAXNDR   =    25512
+ Number of dielectric triangles:          0
+ Number of diel. GO triangles:            0
+ Number of diel. windscreen tr.:          0
+ Number of FEM surface triangles:         0
+ Number of modal port triangles:          0
+ Number of metallic segments:             0                   max. segments: MAXNSEG  =        0
+ Number dielectr./magnet. cuboids:        0                   max. cuboids:  MAXNQUA  =        0
+ Number of tetrahedral elements:          0                   max. tetrah.:  MAXNTETRA=        0
+ Number of edges in PO region:            0                   max. edges:    MAXPOKA  =        0
+ Number of wedges in PO region:           0                   max. wedges:   MAXPOKL  =        0
+ Number of Fock regions:                  0                   max. Fock reg.:MAXFOGE  =        0
+ Number of polygonal surfaces:            0                   max. surfaces: MAXPOLYF =        0
+                                                              max. corner p.:MAXPOLYP =        0
+ Number of UTD cylinders:                 0
+
+ Number of metallic edges (MoM):        38228  unknown:     8969   max. edges:   MAXNKA    =    38268
+                                            0  unknown:        0   (magnet.) 
+ Number of metallic edges (PO):             0  unknown:        0   (electr.)         0 (magnet.)
+ Number of dielectric edges (MoM):          0  unknown:        0   (electr.) 
+                                            0                  0   (magnet.) 
+ Number of dielectric edges (PO):           0  unknown:        0   (electr.)         0 (magnet.)
+ Number of edges FEM/MoM surface:           0  unknown:        0   (electr.) 
+                                            0                  0   (magnet.) 
+ Number of nodes between segments:          0  unknown:        0   max. nodes:   MAXNKNO   =        0
+ Number of connection points:               0  unknown:        0   max. conn.:   MAXNV     =        0
+ Number of dielectric cuboids:              0  unknown:        0   max. cuboids: MAXNQUA   =        0
+ Number of magnetic cuboids:                0  unknown:        0
+
+ Number of basis funct. for MoM:        38228  unknown:     8969   max. basisf.  MAXNZEILE =    38268
+ Number of basis funct. for PO:             0  unknown:        0   max. basisf.  MAXNKAPO  =        0
+
+ read from input file:                             
+FR      11    0    0    0    0 2.120E+09 0.000E+00 3.180E+09 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+AE       0   25    5    0    8 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:                                 
+FF       1   49   49    1    0-1.800E+02-1.800E+02 7.500E+00 7.500E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   1.41412E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT EDGE
+
+ Name:                        VoltageSource1
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  2.12000E+09
+ Wavelength in m:             LAMBDA =  1.41412E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Electrical edge length in m: LEN =  2.44917E-03
+ Indices of the edges:
+    -932   -1237   -1344   -1638   -21131   -21398   -21505   -21771
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+               All segments and triangles are perfectly conducting
+
+
+                          DATA FOR STORAGE OF THE MATRIX
+
+ Storage using single precision
+
+ Memory requirement for MoM matrix:      8976 rows *    38228 columns =   343134528 complex numbers
+ For the MoM matrix, a memory of     80543972 complex numbers is used (i.e.  614.502 MByte)
+ Storing the matrix and solving the linear set of equations in main memory (case 2)
+
+     A total memory of  625.100 MByte has been allocated dynamically
+     (peak memory usage so far  625.100 MByte)
+
+
+     No efficient calculation of the matrix elements for triangles
+
+ NOTE     3725: Usage of symmetry only possible in part since not enough main memory
+ ERROR   32295: FEKO process was terminated by the user (Close-Event)
+
+Aborted: 2009-11-08 16:51:03                     

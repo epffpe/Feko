@@ -1,0 +1,39 @@
+FEKO      Version  55.353       from 2009-08-10 (FEKO Suite 5.5)
+          PREFEKO version 34.46-92 from 2009-08-10                    BINARY
+          CADFEKO version 5.0.124623 from Aug 11 2009                 
+          Copyright (c) 1999-2009 EM Software & Systems-S.A. (Pty) Ltd     
+          Intel(R) MKL version 10.2 (build 20090616) on Intel(R) Pentium(R) 4 processor with SSE3 (1 thread)
+Computer: PC WIN32 MKL -- Supersonic                        
+          Professional  (Build 7600), Version 6.1.7600
+          Genuine Intel(R) CPU           T2400  @ 1.83GHz; GenuineIntel family 6 model 14 stepping 8 brand id 0
+          1 physical CPU with a total of 2 processors found (multi-core CPU with max. 2 cores per physical CPU)
+Date:     2011-02-19 16:54:35                     
+File:     Path
+Memory:   Limited to    2.000 GByte, reason  160
+MD5 Check:196F20A863B81ACEB223426B0231528F
+MD5 Total:758F11008B75DA287108100DC34663FD
+Licence:  Nodelocked licence no.                                 
+
+ Number of cores found on this CPU:  2
+ (that many parallel processes may be run with your sequential FEKO licence)
+ NOTE    35127: You are running a sequential version of FEKO, but it was detected that your CPU has more than one core. For best performance, it would be recommended to run the parallel FEKO kernel (your licence allows this)
+
+
+                    YZ-plane is a magnetic conducting wall
+
+          Mirroring in yz-plane: 
+                               108 metallic triangles
+                                68 triangles in the dielectric
+
+          Scaling of the geometry with factor SKAL =  1.00000E-03
+
+          Surface of all triangles in m*m:     0.00092
+
+          Length of the segments in m:         0.0015
+
+ The segment no. 1 with radius   0.005 m
+ at the connection point no. 1 is thick as compared to the
+ edge length   0.00175539122 m of the connected triangle no. 20
+ ERROR    2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+Aborted: 2011-02-19 16:54:35                     

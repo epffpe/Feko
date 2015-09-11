@@ -1,0 +1,1 @@
+-localonly 8 -genvlist FEKO_HOME,FEKO_USER_HOME,FEKOLANG,FEKO_TMPDIR,I_MPI_DEVICE,I_MPI_PIN,APPDATA "C:\Program Files\FEKO\5.5\bin\feko.csv.impi.exe" dipolo_s "--run-from-gui"

@@ -1,0 +1,52 @@
+=========================  L O G - FILE - OPTFEKO  =========================
+
+Version: 15.28 of 2009-08-10
+Date: 2011-02-19 20:23:07
+File: Yagui3_T-Match
+
+OPTIMISATION WITH FEKO
+
+=============== Optimisation variables ===============
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 s                                1.720000000e+00  3.000000000e-01  3.000000000e+00
+  2 lt                               1.400000000e+01  6.923610000e-01  3.288720000e+01
+
+
+
+=============== Optimisation goals ===============
+
+No.  Name                            Expression
+  1 search1.goals.impedancegoal1    min(ex_vswr:50(impedance(voltagesource1)))
+
+
+=============== Optimisation method: SIMPLEX NELDER-MEAD ===============
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-04
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=============== SIMPLEX NELDER-MEAD: Intermediate results ===============
+
+ No.  s                lt               search1.goals.i  global goal      Operation   Global best aim
+   1  1.720000000e+00  1.400000000e+01  1.378569477e+00  1.785694773e-01       -----  1.785694773e-01
+   2  2.111199960e+00  1.524989562e+01  1.512436417e+00  3.124364167e-01       -----
+   3  1.824821713e+00  1.866467397e+01  1.182649529e+00  0.000000000e+00       -----  0.000000000e+00
+
+
+=============== SIMPLEX NELDER-MEAD: Finished ===============
+
+Optimisation finished (Goal reached:   0.000000000e+00)
+
+Optimum found for these parameters:
+  s                              =   1.824821713e+00
+  lt                             =   1.866467397e+01
+
+Optimum aim function value (at no. 3):   0.000000000e+00
+No. of the last analysis: 3

@@ -1,0 +1,478 @@
+FEKO      Version  55.353       from 2009-08-10 (FEKO Suite 5.5)
+          PREFEKO version 34.46-92 from 2009-08-10                    BINARY
+          CADFEKO_BATCH version 5.0.124623 from Aug 11 2009           
+          Copyright (c) 1999-2009 EM Software & Systems-S.A. (Pty) Ltd     
+          Intel(R) MKL version 10.2 (build 20090616) on Intel(R) Pentium(R) 4 processor with SSE3 (1 thread)
+Computer: PC WIN32 MKL -- Supersonic                        
+          Professional  (Build 7600), Version 6.1.7600
+          Genuine Intel(R) CPU           T2400  @ 1.83GHz; GenuineIntel family 6 model 14 stepping 8 brand id 0
+          1 physical CPU with a total of 2 processors found (multi-core CPU with max. 2 cores per physical CPU)
+Date:     2011-02-26 19:43:05                     
+File:     Yagui3_Boom_T-Match_opt_14
+Memory:   Limited to    2.000 GByte, reason  160
+MD5 Check:075CA434A90A8EF619B3F6ABB1ED7143
+MD5 Total:3500727978C3F19887FD269EC81202C9
+Licence:  Nodelocked licence no.                                 
+
+ Number of cores found on this CPU:  2
+ (that many parallel processes may be run with your sequential FEKO licence)
+ NOTE    35127: You are running a sequential version of FEKO, but it was detected that your CPU has more than one core. For best performance, it would be recommended to run the parallel FEKO kernel (your licence allows this)
+
+
+                    XZ-plane is a geometric plane of symmetry
+
+          Mirroring in xz-plane: 
+                                16 metallic segments
+                               467 metallic triangles
+
+          Scaling of the geometry with factor SKAL =  1.00000E-02
+
+          Surface of all triangles in m*m:     0.0221953393
+
+          Length of the segments in m:         1.3030521
+
+   Minimum edge length of triangles in m:   0.000654616362 (edge  279)
+   Maximum edge length of triangles in m:   0.0692477569 (edge  553)
+ Ratio of the max/min edge length is   105.783724
+ WARNING  1663: Inhomogeneous segmentation for triangles
+
+   Minimum surface area of a triangle in m*m:   1.92877247E-007 (triangle  172)
+   Maximum surface area of a triangle in m*m:   0.000396593204 (triangle  108)
+ Ratio of the max/min triangle surface area is   2056.19486
+ WARNING 33131: Inhomogeneous segmentation for triangles
+
+ The segment no. 7 with radius   0.003 m
+ at the connection point no. 1 is thick as compared to the
+ edge length   0.00833321319 m of the connected triangle no. 103
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 7 with radius   0.003 m
+ at the connection point no. 1 is thick as compared to the
+ edge length   0.00879642914 m of the connected triangle no. 104
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 7 with radius   0.003 m
+ at the connection point no. 1 is thick as compared to the
+ edge length   0.00833321319 m of the connected triangle no. 105
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 7 with radius   0.003 m
+ at the connection point no. 1 is thick as compared to the
+ edge length   0.00879642914 m of the connected triangle no. 118
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 23 with radius   0.003 m
+ at the connection point no. 3 is thick as compared to the
+ edge length   0.00833321319 m of the connected triangle no. 570
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 23 with radius   0.003 m
+ at the connection point no. 3 is thick as compared to the
+ edge length   0.00879642914 m of the connected triangle no. 571
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 23 with radius   0.003 m
+ at the connection point no. 3 is thick as compared to the
+ edge length   0.00833321319 m of the connected triangle no. 572
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+ The segment no. 23 with radius   0.003 m
+ at the connection point no. 3 is thick as compared to the
+ edge length   0.00879642914 m of the connected triangle no. 585
+ WARNING  2701: A wire segment at a connection point is too thick as compared to the triangle size
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:          934                   max. triangles:MAXNDR   =      934
+ Number of dielectric triangles:          0
+ Number of diel. GO triangles:            0
+ Number of diel. windscreen tr.:          0
+ Number of FEM surface triangles:         0
+ Number of modal port triangles:          0
+ Number of metallic segments:            33                   max. segments: MAXNSEG  =       33
+ Number dielectr./magnet. cuboids:        0                   max. cuboids:  MAXNQUA  =        0
+ Number of tetrahedral elements:          0                   max. tetrah.:  MAXNTETRA=        0
+ Number of edges in PO region:            0                   max. edges:    MAXPOKA  =        0
+ Number of wedges in PO region:           0                   max. wedges:   MAXPOKL  =        0
+ Number of Fock regions:                  0                   max. Fock reg.:MAXFOGE  =        0
+ Number of polygonal surfaces:            0                   max. surfaces: MAXPOLYF =        0
+                                                              max. corner p.:MAXPOLYP =        0
+ Number of UTD cylinders:                 0
+
+ Number of metallic edges (MoM):         1345  unknown:     1345   max. edges:   MAXNKA    =     1401
+                                            0  unknown:        0   (magnet.) 
+ Number of metallic edges (PO):             0  unknown:        0   (electr.)         0 (magnet.)
+ Number of dielectric edges (MoM):          0  unknown:        0   (electr.) 
+                                            0                  0   (magnet.) 
+ Number of dielectric edges (PO):           0  unknown:        0   (electr.)         0 (magnet.)
+ Number of edges FEM/MoM surface:           0  unknown:        0   (electr.) 
+                                            0                  0   (magnet.) 
+ Number of nodes between segments:         31  unknown:       31   max. nodes:   MAXNKNO   =       60
+ Number of connection points:               4  unknown:        4   max. conn.:   MAXNV     =       33
+ Number of dielectric cuboids:              0  unknown:        0   max. cuboids: MAXNQUA   =        0
+ Number of magnetic cuboids:                0  unknown:        0
+
+ Number of basis funct. for MoM:         1380  unknown:     1380   max. basisf.  MAXNZEILE =     1494
+ Number of basis funct. for PO:             0  unknown:        0   max. basisf.  MAXNKAPO  =        0
+
+ read from input file:                             
+FR       0    0    0    0    0 4.330E+08 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:                             
+A1       0   17    0    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:                             
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:                             
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:                             
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:                             
+FF       1  181    1    0    0-1.800E+02 0.000E+00 2.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   6.92361E-01   0.00000E+00    infinite    0
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        VoltageSource1
+ Number of voltage source:    N =      1
+ Frequency in Hz:             FREQ =  4.33000E+08
+ Wavelength in m:             LAMBDA =  6.92361E-01
+ Open circuit voltage in V:   |U0| =  1.00000E+00
+ Phase in deg.:               ARG(U0) =     0.00
+ Source at segment w. label:  ULA = Feed.Wire228.Port1
+ Absolute number of segment:  UNR =     33
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z = -1.86105E-02
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  1.00000E+00
+                              Z =  0.00000E+00
+
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+     Segment         4 is too thick (radius/length= 3.75000E-01)
+ WARNING   117: The ratio of the segment radius to length is too large
+
+     Segment         8 is too thick (radius/length= 3.75000E-01)
+ WARNING   117: The ratio of the segment radius to length is too large
+
+     Segment        20 is too thick (radius/length= 3.75000E-01)
+ WARNING   117: The ratio of the segment radius to length is too large
+
+     Segment        24 is too thick (radius/length= 3.75000E-01)
+ WARNING   117: The ratio of the segment radius to length is too large
+
+               All segments and triangles are perfectly conducting
+
+
+                          DATA FOR STORAGE OF THE MATRIX
+
+ Storage using single precision
+
+ Memory requirement for MoM matrix:      1392 rows *     1380 columns =     1920960 complex numbers
+ For the MoM matrix, a memory of      1920960 complex numbers is used (i.e.   14.656 MByte)
+ Storing the matrix and solving the linear set of equations in main memory (case 1)
+
+     A total memory of   15.089 MByte has been allocated dynamically
+     (peak memory usage so far   15.089 MByte)
+
+
+
+                    PRE-CONDITIONING OF THE LINEAR SET OF EQUATIONS
+
+               Selected algorithm:     PCFLAG =    1
+               CPU time for preconditioning:       0.080 seconds
+
+
+                    SOLUTION OF THE LINEAR SET OF EQUATIONS WITH LAPAGAU
+
+               Block size for the LU decomp.:    64
+               Condition number of the matrix:  7.92010E+05
+
+               Floating point performance for LU decomposition:
+                          3658.954 MFLOPS(SP) for CPU-time       1.919 seconds
+                          3658.954 MFLOPS(SP) for run-time       1.919 seconds
+
+     CPU time for solving the linear set of equations:       2.069 seconds
+
+
+                         DATA OF THE VOLTAGE SOURCE NO.     1
+
+                    real part  imag. part     magn.         phase
+ Current   in A    1.4748E-02  7.6674E-04  1.4767E-02        2.98
+ Admitt.   in A/V  1.4748E-02  7.6674E-04  1.4767E-02        2.98
+ Impedance in Ohm  6.7625E+01 -3.5159E+00  6.7716E+01       -2.98
+ Capacitance in F  1.0454E-10
+
+                                   Power in Watt: 7.37377E-03
+
+
+                              SCATTERING PARAMETERS
+
+       ports                                        magnitude          phase 
+    sink source     real part   imag. part      linear      in dB     in deg.
+ S     1      1   1.50600E-01 -2.53892E-02   1.52725E-01  -16.3218     -9.57
+         Sum |S|^2 of these S-parameters:    2.33250E-02  -16.3218
+         Reference impedance in Ohm:  5.00000E+01
+
+
+
+
+                              SUMMARY OF LOSSES
+
+          Metallic elements:                          0.0000E+00 W
+          Dielectric (surface equiv. princ.):         0.0000E+00 W
+          Dielectric (volume equiv. princ.):          0.0000E+00 W
+          Dielectric (FEM region):                    0.0000E+00 W
+          Mismatch at feed:                           0.0000E+00 W
+          Non-radiating networks:                     0.0000E+00 W
+          Backward power at passive waveguide ports:  0.0000E+00 W
+          Backward power at passive modal ports:      0.0000E+00 W
+                                                     -------------
+                Sum of all losses:                    0.0000E+00 W
+
+          Efficiency of the antenna:                    100.0000 %
+          (based on a total active power:             7.3738E-03 W)
+
+
+ Far-field request with name: FarField2
+
+
+
+      VALUES OF THE SCATTERED ELECTRIC FIELD STRENGTH IN THE FAR FIELD in V
+                    Factor e^(-j*BETA*R)/R not considered
+
+          The following offset is in effect for the co-ordinates:
+          X= 0.00000E+00 m  Y= 0.00000E+00 m  Z= 0.00000E+00 m
+
+       LOCATION          ETHETA             EPHI              directivity in dB             POLARISATION
+   THETA    PHI      magn.    phase     magn.    phase     vert.     horiz.    total     axial r. angle   direction
+ -180.00    0.00   9.556E-07  -70.51  2.005E-01 -163.66  -999.9999  -10.4126  -10.4126   0.0000   -90.00   LINEAR
+ -178.00    0.00   9.331E-07  -72.81  1.896E-01 -172.98  -999.9999  -10.9005  -10.9005   0.0000   -90.00   LINEAR
+ -176.00    0.00   9.103E-07  -75.21  1.831E-01  177.78  -999.9999  -11.1997  -11.1997   0.0000   -90.00   LINEAR
+ -174.00    0.00   8.875E-07  -77.72  1.803E-01  169.04  -999.9999  -11.3338  -11.3338   0.0000   -90.00   LINEAR
+ -172.00    0.00   8.649E-07  -80.33  1.800E-01  161.09  -999.9999  -11.3482  -11.3482   0.0000   -90.00   LINEAR
+ -170.00    0.00   8.426E-07  -83.04  1.811E-01  154.06  -999.9999  -11.2955  -11.2955   0.0000   -90.00   LINEAR
+ -168.00    0.00   8.208E-07  -85.84  1.826E-01  147.95  -999.9999  -11.2232  -11.2232   0.0000   -90.00   LINEAR
+ -166.00    0.00   7.996E-07  -88.72  1.838E-01  142.67  -999.9999  -11.1689  -11.1689   0.0000   -90.00   LINEAR
+ -164.00    0.00   7.792E-07  -91.67  1.840E-01  138.11  -999.9999  -11.1600  -11.1600   0.0000   -90.00   LINEAR
+ -162.00    0.00   7.595E-07  -94.69  1.828E-01  134.16  -999.9999  -11.2166  -11.2166   0.0000   -90.00   LINEAR
+ -160.00    0.00   7.406E-07  -97.75  1.799E-01  130.72  -999.9999  -11.3536  -11.3536   0.0000   -90.00   LINEAR
+ -158.00    0.00   7.226E-07 -100.84  1.752E-01  127.68  -999.9999  -11.5837  -11.5837   0.0000   -90.00   LINEAR
+ -156.00    0.00   7.054E-07 -103.96  1.686E-01  124.97  -999.9999  -11.9193  -11.9193   0.0000   -90.00   LINEAR
+ -154.00    0.00   6.890E-07 -107.08  1.600E-01  122.52  -999.9999  -12.3745  -12.3745   0.0000   -90.00   LINEAR
+ -152.00    0.00   6.733E-07 -110.18  1.494E-01  120.27  -999.9999  -12.9670  -12.9670   0.0000   -90.00   LINEAR
+ -150.00    0.00   6.581E-07 -113.27  1.370E-01  118.15  -999.9999  -13.7213  -13.7213   0.0000   -90.00   LINEAR
+ -148.00    0.00   6.435E-07 -116.31  1.228E-01  116.10  -999.9999  -14.6726  -14.6726   0.0000   -90.00   LINEAR
+ -146.00    0.00   6.292E-07 -119.30  1.069E-01  114.03  -999.9999  -15.8752  -15.8752   0.0000   -90.00   LINEAR
+ -144.00    0.00   6.151E-07 -122.24  8.952E-02  111.82  -999.9999  -17.4172  -17.4172   0.0000   -90.00   LINEAR
+ -142.00    0.00   6.011E-07 -125.10  7.078E-02  109.18  -120.8762  -19.4568  -19.4568   0.0000   -90.00   LINEAR
+ -140.00    0.00   5.870E-07 -127.89  5.092E-02  105.43  -121.0825  -22.3181  -22.3181   0.0000   -90.00   LINEAR
+ -138.00    0.00   5.727E-07 -130.60  3.028E-02   97.99  -121.2973  -26.8321  -26.8321   0.0000   -90.00   RIGHT 
+ -136.00    0.00   5.580E-07 -133.23  1.086E-02   64.22  -121.5233  -35.7425  -35.7425   0.0000   -90.00   RIGHT 
+ -134.00    0.00   5.428E-07 -135.78  1.741E-02  -40.68  -121.7633  -31.6390  -31.6390   0.0000    90.00   LEFT  
+ -132.00    0.00   5.270E-07 -138.25  3.937E-02  -57.42  -122.0200  -24.5510  -24.5510   0.0000    90.00   LEFT  
+ -130.00    0.00   5.105E-07 -140.64  6.249E-02  -62.67  -122.2963  -20.5397  -20.5397   0.0000    90.00   LINEAR
+ -128.00    0.00   4.932E-07 -142.97  8.589E-02  -65.50  -999.9999  -17.7767  -17.7767   0.0000    90.00   LINEAR
+ -126.00    0.00   4.751E-07 -145.24  1.093E-01  -67.40  -999.9999  -15.6838  -15.6838   0.0000    90.00   LINEAR
+ -124.00    0.00   4.561E-07 -147.45  1.325E-01  -68.86  -999.9999  -14.0123  -14.0123   0.0000    90.00   LINEAR
+ -122.00    0.00   4.361E-07 -149.63  1.553E-01  -70.06  -999.9999  -12.6332  -12.6332   0.0000    90.00   LINEAR
+ -120.00    0.00   4.153E-07 -151.79  1.775E-01  -71.08  -999.9999  -11.4711  -11.4711   0.0000    90.00   LINEAR
+ -118.00    0.00   3.936E-07 -153.95  1.990E-01  -72.00  -999.9999  -10.4781  -10.4781   0.0000    90.00   LINEAR
+ -116.00    0.00   3.710E-07 -156.13  2.196E-01  -72.83  -999.9999   -9.6218   -9.6218   0.0000    90.00   LINEAR
+ -114.00    0.00   3.476E-07 -158.37  2.392E-01  -73.60  -999.9999   -8.8795   -8.8795   0.0000    90.00   LINEAR
+ -112.00    0.00   3.234E-07 -160.70  2.577E-01  -74.33  -999.9999   -8.2346   -8.2346   0.0000    90.00   LINEAR
+ -110.00    0.00   2.986E-07 -163.19  2.748E-01  -75.02  -999.9999   -7.6746   -7.6746   0.0000    90.00   LINEAR
+ -108.00    0.00   2.732E-07 -165.90  2.906E-01  -75.68  -999.9999   -7.1900   -7.1900   0.0000    90.00   LINEAR
+ -106.00    0.00   2.475E-07 -168.94  3.049E-01  -76.32  -999.9999   -6.7735   -6.7735   0.0000    90.00   LINEAR
+ -104.00    0.00   2.216E-07 -172.47  3.175E-01  -76.96  -999.9999   -6.4193   -6.4193   0.0000    90.00   LINEAR
+ -102.00    0.00   1.958E-07 -176.71  3.286E-01  -77.58  -999.9999   -6.1229   -6.1229   0.0000    90.00   LINEAR
+ -100.00    0.00   1.706E-07  177.99  3.379E-01  -78.21  -999.9999   -5.8806   -5.8806   0.0000    90.00   LINEAR
+  -98.00    0.00   1.465E-07  171.12  3.454E-01  -78.84  -999.9999   -5.6898   -5.6898   0.0000    90.00   LINEAR
+  -96.00    0.00   1.248E-07  161.91  3.510E-01  -79.49  -999.9999   -5.5484   -5.5484   0.0000    90.00   LINEAR
+  -94.00    0.00   1.070E-07  149.41  3.548E-01  -80.16  -999.9999   -5.4548   -5.4548   0.0000    90.00   LINEAR
+  -92.00    0.00   9.557E-08  133.16  3.568E-01  -80.85  -999.9999   -5.4080   -5.4080   0.0000    90.00   LINEAR
+  -90.00    0.00   9.304E-08  114.54  3.568E-01  -81.59  -999.9999   -5.4075   -5.4075   0.0000    90.00   LINEAR
+  -88.00    0.00   9.999E-08   96.91  3.549E-01  -82.37  -999.9999   -5.4531   -5.4531   0.0000    90.00   LINEAR
+  -86.00    0.00   1.146E-07   82.83  3.512E-01  -83.21  -999.9999   -5.5450   -5.5450   0.0000    90.00   LINEAR
+  -84.00    0.00   1.340E-07   72.56  3.456E-01  -84.13  -999.9999   -5.6839   -5.6839   0.0000    90.00   LINEAR
+  -82.00    0.00   1.563E-07   65.25  3.382E-01  -85.14  -999.9999   -5.8708   -5.8708   0.0000    90.00   LINEAR
+  -80.00    0.00   1.801E-07   60.03  3.292E-01  -86.27  -999.9999   -6.1069   -6.1069   0.0000    90.00   LINEAR
+  -78.00    0.00   2.045E-07   56.27  3.185E-01  -87.55  -999.9999   -6.3939   -6.3939   0.0000    90.00   LINEAR
+  -76.00    0.00   2.289E-07   53.53  3.063E-01  -89.01  -999.9999   -6.7336   -6.7336   0.0000    90.00   LINEAR
+  -74.00    0.00   2.531E-07   51.56  2.927E-01  -90.69  -999.9999   -7.1281   -7.1281   0.0000    90.00   LINEAR
+  -72.00    0.00   2.768E-07   50.16  2.778E-01  -92.65  -999.9999   -7.5793   -7.5793   0.0000    90.00   LINEAR
+  -70.00    0.00   2.998E-07   49.23  2.620E-01  -94.98  -999.9999   -8.0883   -8.0883   0.0000    90.00   LINEAR
+  -68.00    0.00   3.219E-07   48.68  2.455E-01  -97.75  -999.9999   -8.6553   -8.6553   0.0000    90.00   LINEAR
+  -66.00    0.00   3.430E-07   48.44  2.285E-01 -101.09  -999.9999   -9.2777   -9.2777   0.0000    90.00   LINEAR
+  -64.00    0.00   3.630E-07   48.49  2.115E-01 -105.16  -999.9999   -9.9477   -9.9477   0.0000    90.00   LINEAR
+  -62.00    0.00   3.819E-07   48.80  1.951E-01 -110.13  -999.9999  -10.6492  -10.6492   0.0000    90.00   LINEAR
+  -60.00    0.00   3.996E-07   49.33  1.800E-01 -116.20  -999.9999  -11.3519  -11.3519   0.0000    90.00   LINEAR
+  -58.00    0.00   4.161E-07   50.09  1.669E-01 -123.53  -999.9999  -12.0059  -12.0059   0.0000    90.00   LINEAR
+  -56.00    0.00   4.314E-07   51.07  1.570E-01 -132.16  -999.9999  -12.5384  -12.5384   0.0000    90.00   LINEAR
+  -54.00    0.00   4.455E-07   52.25  1.512E-01 -141.87  -999.9999  -12.8643  -12.8643   0.0000   -90.00   LINEAR
+  -52.00    0.00   4.585E-07   53.63  1.503E-01 -152.14  -999.9999  -12.9141  -12.9141   0.0000   -90.00   LINEAR
+  -50.00    0.00   4.704E-07   55.22  1.546E-01 -162.20  -999.9999  -12.6688  -12.6688   0.0000   -90.00   LINEAR
+  -48.00    0.00   4.814E-07   57.01  1.638E-01 -171.35  -999.9999  -12.1717  -12.1717   0.0000   -90.00   LINEAR
+  -46.00    0.00   4.915E-07   59.00  1.768E-01 -179.20  -999.9999  -11.5033  -11.5033   0.0000   -90.00   LINEAR
+  -44.00    0.00   5.009E-07   61.20  1.930E-01  174.36  -999.9999  -10.7462  -10.7462   0.0000   -90.00   LINEAR
+  -42.00    0.00   5.099E-07   63.59  2.111E-01  169.23  -999.9999   -9.9640   -9.9640   0.0000   -90.00   LINEAR
+  -40.00    0.00   5.185E-07   66.18  2.306E-01  165.22  -999.9999   -9.1980   -9.1980   0.0000   -90.00   LINEAR
+  -38.00    0.00   5.270E-07   68.96  2.507E-01  162.15  -999.9999   -8.4720   -8.4720   0.0000   -90.00   LINEAR
+  -36.00    0.00   5.357E-07   71.91  2.709E-01  159.84  -999.9999   -7.7980   -7.7980   0.0000   -90.00   LINEAR
+  -34.00    0.00   5.448E-07   75.03  2.909E-01  158.18  -999.9999   -7.1809   -7.1809   0.0000   -90.00   LINEAR
+  -32.00    0.00   5.546E-07   78.29  3.102E-01  157.04  -999.9999   -6.6220   -6.6220   0.0000   -90.00   LINEAR
+  -30.00    0.00   5.653E-07   81.68  3.287E-01  156.37  -999.9999   -6.1199   -6.1199   0.0000   -90.00   LINEAR
+  -28.00    0.00   5.770E-07   85.17  3.461E-01  156.10  -999.9999   -5.6725   -5.6725   0.0000   -90.00   LINEAR
+  -26.00    0.00   5.901E-07   88.74  3.622E-01  156.19  -999.9999   -5.2770   -5.2770   0.0000   -90.00   LINEAR
+  -24.00    0.00   6.047E-07   92.34  3.769E-01  156.61  -999.9999   -4.9303   -4.9303   0.0000   -90.00   LINEAR
+  -22.00    0.00   6.208E-07   95.95  3.902E-01  157.34  -999.9999   -4.6291   -4.6291   0.0000   -90.00   LINEAR
+  -20.00    0.00   6.386E-07   99.54  4.020E-01  158.38  -999.9999   -4.3700   -4.3700   0.0000   -90.00   LINEAR
+  -18.00    0.00   6.581E-07  103.09  4.124E-01  159.71  -999.9999   -4.1493   -4.1493   0.0000   -90.00   LINEAR
+  -16.00    0.00   6.792E-07  106.56  4.213E-01  161.33  -999.9999   -3.9633   -3.9633   0.0000   -90.00   LINEAR
+  -14.00    0.00   7.018E-07  109.94  4.289E-01  163.26  -999.9999   -3.8076   -3.8076   0.0000   -90.00   LINEAR
+  -12.00    0.00   7.258E-07  113.21  4.354E-01  165.49  -999.9999   -3.6773   -3.6773   0.0000   -90.00   LINEAR
+  -10.00    0.00   7.511E-07  116.37  4.410E-01  168.03  -999.9999   -3.5669   -3.5669   0.0000   -90.00   LINEAR
+   -8.00    0.00   7.773E-07  119.39  4.459E-01  170.88  -999.9999   -3.4702   -3.4702   0.0000   -90.00   LINEAR
+   -6.00    0.00   8.043E-07  122.28  4.506E-01  174.06  -999.9999   -3.3801   -3.3801   0.0000   -90.00   LINEAR
+   -4.00    0.00   8.319E-07  125.04  4.553E-01  177.55  -999.9999   -3.2888   -3.2888   0.0000   -90.00   LINEAR
+   -2.00    0.00   8.597E-07  127.67  4.607E-01 -178.66  -999.9999   -3.1878   -3.1878   0.0000   -90.00   LINEAR
+    0.00    0.00   8.875E-07  130.18  4.670E-01 -174.59  -999.9999   -3.0683   -3.0683   0.0000   -90.00   LINEAR
+    2.00    0.00   9.150E-07  132.56  4.750E-01 -170.28  -999.9999   -2.9220   -2.9220   0.0000   -90.00   LINEAR
+    4.00    0.00   9.420E-07  134.82  4.850E-01 -165.77  -999.9999   -2.7414   -2.7414   0.0000   -90.00   LINEAR
+    6.00    0.00   9.681E-07  136.98  4.974E-01 -161.13  -999.9999   -2.5206   -2.5206   0.0000   -90.00   LINEAR
+    8.00    0.00   9.932E-07  139.03  5.128E-01 -156.43  -999.9999   -2.2561   -2.2561   0.0000   -90.00   LINEAR
+   10.00    0.00   1.017E-06  140.99  5.314E-01 -151.74  -999.9999   -1.9470   -1.9470   0.0000   -90.00   LINEAR
+   12.00    0.00   1.039E-06  142.86  5.534E-01 -147.13  -999.9999   -1.5953   -1.5953   0.0000   -90.00   LINEAR
+   14.00    0.00   1.060E-06  144.66  5.788E-01 -142.66  -999.9999   -1.2052   -1.2052   0.0000   -90.00   LINEAR
+   16.00    0.00   1.078E-06  146.37  6.076E-01 -138.39  -999.9999   -0.7825   -0.7825   0.0000   -90.00   LINEAR
+   18.00    0.00   1.095E-06  148.03  6.398E-01 -134.34  -999.9999   -0.3343   -0.3343   0.0000    90.00   LINEAR
+   20.00    0.00   1.109E-06  149.61  6.751E-01 -130.54  -999.9999    0.1321    0.1321   0.0000    90.00   LINEAR
+   22.00    0.00   1.121E-06  151.15  7.133E-01 -127.00  -999.9999    0.6097    0.6097   0.0000    90.00   LINEAR
+   24.00    0.00   1.130E-06  152.63  7.540E-01 -123.73  -999.9999    1.0921    1.0921   0.0000    90.00   LINEAR
+   26.00    0.00   1.137E-06  154.07  7.970E-01 -120.71  -999.9999    1.5737    1.5737   0.0000    90.00   LINEAR
+   28.00    0.00   1.141E-06  155.47  8.419E-01 -117.93  -999.9999    2.0499    2.0499   0.0000    90.00   LINEAR
+   30.00    0.00   1.142E-06  156.84  8.884E-01 -115.37  -999.9999    2.5170    2.5170   0.0000    90.00   LINEAR
+   32.00    0.00   1.141E-06  158.18  9.362E-01 -113.03  -999.9999    2.9720    2.9720   0.0000    90.00   LINEAR
+   34.00    0.00   1.136E-06  159.49  9.849E-01 -110.88  -999.9999    3.4127    3.4127   0.0000    90.00   LINEAR
+   36.00    0.00   1.129E-06  160.79  1.034E+00 -108.90  -999.9999    3.8375    3.8375   0.0000    90.00   LINEAR
+   38.00    0.00   1.119E-06  162.07  1.084E+00 -107.09  -999.9999    4.2453    4.2453   0.0000    90.00   LINEAR
+   40.00    0.00   1.106E-06  163.34  1.134E+00 -105.42  -999.9999    4.6354    4.6354   0.0000    90.00   LINEAR
+   42.00    0.00   1.091E-06  164.61  1.183E+00 -103.89  -999.9999    5.0074    5.0074   0.0000    90.00   LINEAR
+   44.00    0.00   1.073E-06  165.88  1.233E+00 -102.48  -999.9999    5.3610    5.3610   0.0000    90.00   LINEAR
+   46.00    0.00   1.052E-06  167.16  1.281E+00 -101.18  -999.9999    5.6962    5.6962   0.0000    90.00   LINEAR
+   48.00    0.00   1.029E-06  168.46  1.329E+00  -99.98  -999.9999    6.0132    6.0132   0.0000    90.00   LINEAR
+   50.00    0.00   1.003E-06  169.78  1.375E+00  -98.87  -999.9999    6.3122    6.3122   0.0000    90.00   LINEAR
+   52.00    0.00   9.756E-07  171.14  1.421E+00  -97.84  -999.9999    6.5935    6.5935   0.0000    90.00   LINEAR
+   54.00    0.00   9.456E-07  172.54  1.464E+00  -96.90  -999.9999    6.8575    6.8575   0.0000    90.00   LINEAR
+   56.00    0.00   9.136E-07  173.99  1.507E+00  -96.02  -999.9999    7.1045    7.1045   0.0000    90.00   LINEAR
+   58.00    0.00   8.797E-07  175.52  1.547E+00  -95.21  -999.9999    7.3349    7.3349   0.0000    90.00   LINEAR
+   60.00    0.00   8.441E-07  177.13  1.586E+00  -94.46  -999.9999    7.5491    7.5491   0.0000    90.00   LINEAR
+   62.00    0.00   8.070E-07  178.85  1.622E+00  -93.77  -999.9999    7.7476    7.7476   0.0000    90.00   LINEAR
+   64.00    0.00   7.686E-07 -179.30  1.657E+00  -93.13  -999.9999    7.9307    7.9307   0.0000    90.00   LINEAR
+   66.00    0.00   7.291E-07 -177.28  1.689E+00  -92.53  -999.9999    8.0987    8.0987   0.0000    90.00   LINEAR
+   68.00    0.00   6.887E-07 -175.07  1.719E+00  -91.99  -999.9999    8.2521    8.2521   0.0000    90.00   LINEAR
+   70.00    0.00   6.478E-07 -172.60  1.747E+00  -91.49  -999.9999    8.3912    8.3912   0.0000    90.00   LINEAR
+   72.00    0.00   6.067E-07 -169.83  1.772E+00  -91.03  -999.9999    8.5163    8.5163   0.0000    90.00   LINEAR
+   74.00    0.00   5.658E-07 -166.69  1.795E+00  -90.60  -999.9999    8.6276    8.6276   0.0000    90.00   LINEAR
+   76.00    0.00   5.256E-07 -163.08  1.816E+00  -90.22  -999.9999    8.7255    8.7255   0.0000    90.00   LINEAR
+   78.00    0.00   4.866E-07 -158.90  1.833E+00  -89.87  -999.9999    8.8101    8.8101   0.0000    90.00   LINEAR
+   80.00    0.00   4.497E-07 -154.03  1.849E+00  -89.56  -999.9999    8.8816    8.8816   0.0000    90.00   LINEAR
+   82.00    0.00   4.157E-07 -148.33  1.861E+00  -89.27  -999.9999    8.9402    8.9402   0.0000    90.00   LINEAR
+   84.00    0.00   3.858E-07 -141.70  1.871E+00  -89.02  -999.9999    8.9860    8.9860   0.0000    90.00   LINEAR
+   86.00    0.00   3.614E-07 -134.06  1.878E+00  -88.81  -999.9999    9.0192    9.0192   0.0000    90.00   LINEAR
+   88.00    0.00   3.437E-07 -125.48  1.883E+00  -88.62  -999.9999    9.0397    9.0397   0.0000    90.00   LINEAR
+   90.00    0.00   3.341E-07 -116.21  1.884E+00  -88.46  -999.9999    9.0476    9.0476   0.0000    90.00   LINEAR
+   92.00    0.00   3.334E-07 -106.67  1.883E+00  -88.33  -999.9999    9.0429    9.0429   0.0000    90.00   LINEAR
+   94.00    0.00   3.416E-07  -97.38  1.880E+00  -88.22  -999.9999    9.0255    9.0255   0.0000    90.00   LINEAR
+   96.00    0.00   3.580E-07  -88.79  1.873E+00  -88.15  -999.9999    8.9954    8.9954   0.0000    90.00   LINEAR
+   98.00    0.00   3.814E-07  -81.17  1.864E+00  -88.10  -999.9999    8.9525    8.9525   0.0000    90.00   LINEAR
+  100.00    0.00   4.105E-07  -74.61  1.852E+00  -88.09  -999.9999    8.8965    8.8965   0.0000    90.00   LINEAR
+  102.00    0.00   4.438E-07  -69.07  1.837E+00  -88.10  -999.9999    8.8272    8.8272   0.0000    90.00   LINEAR
+  104.00    0.00   4.803E-07  -64.43  1.820E+00  -88.13  -999.9999    8.7446    8.7446   0.0000    90.00   LINEAR
+  106.00    0.00   5.188E-07  -60.56  1.800E+00  -88.20  -999.9999    8.6482    8.6482   0.0000    90.00   LINEAR
+  108.00    0.00   5.588E-07  -57.35  1.777E+00  -88.29  -999.9999    8.5378    8.5378   0.0000    90.00   LINEAR
+  110.00    0.00   5.995E-07  -54.68  1.752E+00  -88.42  -999.9999    8.4130    8.4130   0.0000    90.00   LINEAR
+  112.00    0.00   6.404E-07  -52.46  1.724E+00  -88.57  -999.9999    8.2734    8.2734   0.0000    90.00   LINEAR
+  114.00    0.00   6.811E-07  -50.62  1.693E+00  -88.76  -999.9999    8.1185    8.1185   0.0000    90.00   LINEAR
+  116.00    0.00   7.213E-07  -49.10  1.660E+00  -88.98  -999.9999    7.9480    7.9480   0.0000    90.00   LINEAR
+  118.00    0.00   7.607E-07  -47.85  1.625E+00  -89.23  -999.9999    7.7611    7.7611   0.0000    90.00   LINEAR
+  120.00    0.00   7.990E-07  -46.84  1.587E+00  -89.51  -999.9999    7.5575    7.5575   0.0000    90.00   LINEAR
+  122.00    0.00   8.360E-07  -46.03  1.547E+00  -89.83  -999.9999    7.3363    7.3363   0.0000    90.00   LINEAR
+  124.00    0.00   8.715E-07  -45.40  1.505E+00  -90.19  -999.9999    7.0969    7.0969   0.0000    90.00   LINEAR
+  126.00    0.00   9.054E-07  -44.93  1.461E+00  -90.59  -999.9999    6.8387    6.8387   0.0000    90.00   LINEAR
+  128.00    0.00   9.373E-07  -44.60  1.415E+00  -91.03  -999.9999    6.5606    6.5606   0.0000    90.00   LINEAR
+  130.00    0.00   9.673E-07  -44.40  1.367E+00  -91.52  -999.9999    6.2619    6.2619   0.0000    90.00   LINEAR
+  132.00    0.00   9.952E-07  -44.33  1.318E+00  -92.06  -999.9999    5.9417    5.9417   0.0000    90.00   LINEAR
+  134.00    0.00   1.021E-06  -44.36  1.267E+00  -92.65  -999.9999    5.5987    5.5987   0.0000    90.00   LINEAR
+  136.00    0.00   1.044E-06  -44.50  1.214E+00  -93.30  -999.9999    5.2321    5.2321   0.0000    90.00   LINEAR
+  138.00    0.00   1.065E-06  -44.74  1.161E+00  -94.01  -999.9999    4.8405    4.8405   0.0000    90.00   LINEAR
+  140.00    0.00   1.083E-06  -45.08  1.106E+00  -94.79  -999.9999    4.4226    4.4226   0.0000    90.00   LINEAR
+  142.00    0.00   1.099E-06  -45.50  1.051E+00  -95.65  -999.9999    3.9770    3.9770   0.0000    90.00   LINEAR
+  144.00    0.00   1.112E-06  -46.02  9.951E-01  -96.59  -999.9999    3.5023    3.5023   0.0000    90.00   LINEAR
+  146.00    0.00   1.123E-06  -46.62  9.389E-01  -97.63  -999.9999    2.9967    2.9967   0.0000    90.00   LINEAR
+  148.00    0.00   1.131E-06  -47.31  8.825E-01  -98.79  -999.9999    2.4586    2.4586   0.0000    90.00   LINEAR
+  150.00    0.00   1.136E-06  -48.08  8.262E-01 -100.07  -999.9999    1.8860    1.8860   0.0000    90.00   LINEAR
+  152.00    0.00   1.139E-06  -48.94  7.702E-01 -101.49  -999.9999    1.2771    1.2771   0.0000    90.00   LINEAR
+  154.00    0.00   1.139E-06  -49.88  7.149E-01 -103.08  -999.9999    0.6298    0.6298   0.0000    90.00   LINEAR
+  156.00    0.00   1.136E-06  -50.90  6.605E-01 -104.87  -999.9999   -0.0578   -0.0578   0.0000    90.00   LINEAR
+  158.00    0.00   1.132E-06  -52.02  6.073E-01 -106.89  -999.9999   -0.7876   -0.7876   0.0000    90.00   LINEAR
+  160.00    0.00   1.124E-06  -53.22  5.555E-01 -109.19  -999.9999   -1.5613   -1.5613   0.0000    90.00   LINEAR
+  162.00    0.00   1.115E-06  -54.51  5.056E-01 -111.82  -999.9999   -2.3798   -2.3798   0.0000    90.00   LINEAR
+  164.00    0.00   1.103E-06  -55.89  4.577E-01 -114.83  -999.9999   -3.2430   -3.2430   0.0000    90.00   LINEAR
+  166.00    0.00   1.090E-06  -57.37  4.124E-01 -118.33  -999.9999   -4.1488   -4.1488   0.0000    90.00   LINEAR
+  168.00    0.00   1.075E-06  -58.94  3.700E-01 -122.39  -999.9999   -5.0923   -5.0923   0.0000    90.00   LINEAR
+  170.00    0.00   1.058E-06  -60.61  3.308E-01 -127.12  -999.9999   -6.0637   -6.0637   0.0000    90.00   LINEAR
+  172.00    0.00   1.039E-06  -62.38  2.954E-01 -132.65  -999.9999   -7.0462   -7.0462   0.0000    90.00   LINEAR
+  174.00    0.00   1.020E-06  -64.26  2.643E-01 -139.06  -999.9999   -8.0134   -8.0134   0.0000   -90.00   LINEAR
+  176.00    0.00   9.992E-07  -66.23  2.379E-01 -146.43  -999.9999   -8.9279   -8.9279   0.0000   -90.00   LINEAR
+  178.00    0.00   9.778E-07  -68.32  2.166E-01 -154.69  -999.9999   -9.7435   -9.7435   0.0000   -90.00   LINEAR
+  180.00    0.00   9.556E-07  -70.51  2.005E-01 -163.66  -999.9999  -10.4126  -10.4126   0.0000   -90.00   LINEAR
+
+     Gain is a factor of  1.00000E+00 (    0.00 dB) larger than directivity
+
+       The directivity/gain is based on an active power of  7.37377E-03 W
+       and on a power loss of  0.00000E+00 W 
+
+ read from input file:                             
+EN       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
+
+                    SUMMARY OF REQUIRED TIMES IN SECONDS
+
+                                            CPU-time      runtime
+ Reading and constructing the geometry         0.094        0.094
+ Checking the geometry                         0.120        0.120
+ Initialisation of the Greens function         0.000        0.000
+ Calcul. of coupling for PO/Fock               0.000        0.000
+ Calcul. of matrix elements                    6.184        6.184
+ Calcul. of right-hand side vector             0.000        0.000
+ Preconditioning system of linear eqns.        0.080        0.080
+ Solution of the system of linear eqns.        2.069        2.069
+ Determination of surface currents             0.000        0.000
+ Calcul. of impedances/powers/losses           0.018        0.018
+ Calcul. of averaged SAR values                0.000        0.000
+ Calcul. of power ideal receiving ant.         0.000        0.000
+ Calcul. of cable coupling                     0.000        0.000
+ Calcul. of electric near field                0.000        0.000
+ Calcul. of magnetic near field                0.000        0.000
+ Calcul. of far field                          0.209        0.209
+                            other              0.012        0.012
+                                         -----------  -----------
+                         total times:          8.786        8.786
+               (total times in hours:          0.002        0.002)
+
+ Peak memory usage during the whole solution:   15.137 MByte
+
+Finished: 2011-02-26 19:43:14                     

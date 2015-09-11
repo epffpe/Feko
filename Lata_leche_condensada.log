@@ -1,0 +1,69 @@
+=========================  L O G - FILE - OPTFEKO  =========================
+
+Version: 15.28 of 2009-08-10
+Date: 2009-11-09 23:45:13
+File: Lata_leche_condensada
+
+OPTIMISATION WITH FEKO
+
+=============== Optimisation variables ===============
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 pin_long                         2.828230000e+00  2.000000000e+00  6.000000000e+00
+  2 altura_pin                       4.660000000e+00  3.000000000e+00  6.000000000e+00
+
+
+
+=============== Optimisation goals ===============
+
+No.  Name                            Expression
+  1 search1.goals.sparametergoal1   log(mag(reflection:1(sparam(sparameter1))))*(10)
+
+
+=============== Optimisation method: SIMPLEX NELDER-MEAD ===============
+
+Maximum number of iterations:                        20
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-04
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=============== SIMPLEX NELDER-MEAD: Intermediate results ===============
+
+ No.  pin_long         altura_pin       search1.goals.s  global goal      Operation   Global best aim
+   1  2.828230000e+00  4.660000000e+00 -5.202061276e+00  9.797938724e+00       -----  9.797938724e+00
+   2  3.407785496e+00  4.776468570e+00 -2.762791462e+00  1.223720854e+01       -----
+   3  2.983521427e+00  5.094666622e+00 -4.598955679e+00  1.040104432e+01       -----
+   4  2.403965931e+00  4.978198052e+00 -4.637377367e+00  1.036262263e+01           R
+   5  2.248674504e+00  4.543531430e+00 -3.863712256e+00  1.113628774e+01           R
+   6  2.799809696e+00  4.956882824e+00 -5.472191594e+00  9.527808406e+00  -C success  9.527808406e+00
+   7  3.224073765e+00  4.638684772e+00 -3.217685245e+00  1.178231475e+01           R
+   8  2.608992890e+00  4.893319732e+00 -5.645926643e+00  9.354073357e+00  -C success  9.354073357e+00
+   9  2.580572586e+00  5.190202556e+00 -5.368616428e+00  9.631383572e+00           R
+  10  2.642486940e+00  5.057651917e+00 -5.576173914e+00  9.423826086e+00  +C success
+  11  2.451670133e+00  4.994088825e+00 -4.849217214e+00  1.015078279e+01           R
+  12  2.712774806e+00  4.966184324e+00 -5.680653174e+00  9.319346826e+00  -C success  9.319346826e+00
+  13  2.679280756e+00  4.801852139e+00 -5.723203595e+00  9.276796405e+00           R  9.276796405e+00
+  14  2.697677664e+00  4.673952250e+00 -5.682010480e+00  9.317989520e+00   E failure
+  15  2.783062671e+00  4.874716731e+00 -5.491496468e+00  9.508503532e+00           R
+  16  2.652510335e+00  4.888668982e+00 -5.702363848e+00  9.297636152e+00  -C success
+  17  2.619016285e+00  4.724336797e+00 -5.750283363e+00  9.249716637e+00           R  9.249716637e+00
+  18  2.572137025e+00  4.603413033e+00 -5.694199269e+00  9.305800731e+00   E failure
+  19  2.645786706e+00  4.637519954e+00 -5.750806396e+00  9.249193604e+00           R  9.249193604e+00
+  20  2.642424891e+00  4.511945440e+00 -5.802042301e+00  9.197957699e+00   E success  9.197957699e+00
+
+
+=============== SIMPLEX NELDER-MEAD: Finished ===============
+
+Optimisation finished (Maximum number of analyses reached: 20)
+
+Optimum found for these parameters:
+  pin_long                       =   2.642424891e+00
+  altura_pin                     =   4.511945440e+00
+
+Optimum aim function value (at no. 20):   9.197957699e+00
+No. of the last analysis: 20
